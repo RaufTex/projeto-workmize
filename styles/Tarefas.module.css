@@ -1,0 +1,341 @@
+.buttonNewTask {
+  margin-top: 8px;
+  margin-left: 2%;
+  border-radius: 10px;
+}
+
+.containerLeft {
+  top: 0px;
+  display: flex;
+  float: left;
+  width: 50%;
+  height: 100vh;
+  /* background: #ffffff 0% 0% no-repeat padding-box; */
+  opacity: 1;
+}
+.containerRight {
+  top: 0px;
+  display: flex;
+  margin-left: 50%;
+  width: 50%;
+  height: 100vh;
+  opacity: 1;
+}
+
+/* .main {
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.title a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+  text-decoration: underline;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.description {
+  margin: 4rem 0;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.code {
+  background: #fafafa;
+  border-radius: 5px;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+}
+
+.card {
+  margin: 1rem;
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  max-width: 300px;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  color: #0070f3;
+  border-color: #0070f3;
+}
+
+.card h2 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.card p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+} */
+
+.logo {
+  bottom: 57px;
+  //left: 25%;
+  align: center;
+  position: relative;
+  opacity: 1;
+}
+
+.logoTasks {
+  top: 208px;
+  left: 1020px;
+  //margin-left: 15%;
+  position: absolute;
+  opacity: 1;
+}
+.stackLogin {
+  top: 170px;
+  left: 140px;
+  width: 403px;
+  height: 489px;
+  opacity: 1;
+
+  position: absolute;
+}
+.initialTitle {
+  top: 20px;
+  margin-left: 13%;
+  width: 347px;
+  height: 52px;
+  text-align: center;
+  font: normal normal bold 22px/26px Inter;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  position: relative;
+}
+
+.inputEmail {
+  top: 100px;
+
+  width: 400px;
+  max-width: 400px;
+  height: 50px;
+
+  border-radius: 8px;
+  opacity: 1;
+  position: absolute;
+}
+
+.titleAccess {
+  width: 403px;
+  height: 30px;
+  text-align: left;
+  font: normal normal bold 22px/26px Inter;
+  letter-spacing: 0px;
+  opacity: 1;
+  //position: absolute;
+}
+
+.titleInfo {
+  bottom: 8px;
+  width: 403px;
+  height: 19px;
+  text-align: left;
+  font: normal normal medium 14px/19px Inter;
+  letter-spacing: 0px;
+  opacity: 1;
+  position: relative;
+}
+.titleEmail {
+  top: 79px;
+  left: 3px;
+  width: 190px;
+  height: 19px;
+  text-align: left;
+  font: normal normal bold 14px/19px Inter;
+  letter-spacing: 0px;
+  opacity: 1;
+  position: absolute;
+}
+.gridStyle {
+  top: 79px;
+  width: 400px;
+
+  height: 50px;
+  position: absolute;
+  text-align: left;
+}
+.titlePassword {
+  top: 110px;
+  left: 3px;
+  width: 179px;
+  height: 19px;
+  text-align: left;
+  font: normal normal bold 14px/19px Inter;
+  letter-spacing: 0px;
+  opacity: 1;
+  position: absolute;
+}
+.inputPassword {
+  position: absolute;
+  top: 128px;
+
+  width: 400px;
+  max-width: 400px;
+  height: 50px;
+  border-radius: 8px;
+  opacity: 1;
+}
+
+.titlePermission {
+  top: 134px;
+  left: 3px;
+  width: 107px;
+  height: 19px;
+  text-align: left;
+  font: normal normal bold 14px/19px Inter;
+  letter-spacing: 0px;
+
+  opacity: 1;
+  position: absolute;
+}
+.titleMineTasks {
+  //top: 38px;
+  //left: 129px;
+  margin-left: 2px;
+  width: 160px;
+  height: 30px;
+  text-align: left;
+  font: normal normal bold 22px/26px Inter;
+  letter-spacing: 0px;
+  color: #22242e;
+  opacity: 1;
+}
+
+.switchPermission {
+  top: 166px;
+
+  width: 403px;
+  height: 50px;
+  border-radius: 8px;
+  opacity: 1;
+  position: absolute;
+}
+.switch {
+  top: 57px;
+  left: 80%;
+  //width: 96px;
+  //height: 19px;
+  position: relative;
+}
+.selectPermission {
+  height: 55px;
+  border-radius: 8px;
+}
+
+.tasksBox {
+  //left: 23px;
+  width: 100%;
+  height: 100vh;
+  border-top-left-radius: 80px;
+  border: 1px solid #c8c8c8;
+  border-radius: 50px 0px 0px 0px;
+  opacity: 1;
+}
+
+.tasksBoxInside {
+  //left: 23px;
+  top: 4%;
+  left: 29px;
+  width: 90%;
+  height: 70vh;
+  border-radius: 23px;
+
+  opacity: 1;
+  position: relative;
+}
+.homeButton {
+  top: 27px;
+  left: 7px;
+  width: 49px;
+  height: 48px;
+
+  //box-shadow: 0px 2px 5px #0000001c;
+  border-radius: 10px;
+  opacity: 1;
+}
+.logoBottom {
+  top: 651px;
+  left: 13px;
+  width: 37px;
+  height: 35px;
+  background: transparent 0% 0% no-repeat padding-box;
+  opacity: 1;
+  position: relative;
+}
+.switchTasks {
+  /* top: 676px;
+  left: 8px; */
+  top: 676px;
+  width: 12px;
+  height: 12px;
+  position: relative;
+}
+.avatar {
+  top: 12px;
+  left: 90%;
+  position: relative;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}

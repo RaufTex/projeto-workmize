@@ -1,9 +1,12 @@
 html,
 body {
-  padding: 0;
-  margin: 0;
+  /* padding: 0;
+  margin: 0; */
+  overflow: hidden;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+  height: 100vh;
 }
 
 a {
@@ -14,3 +17,9 @@ a {
 * {
   box-sizing: border-box;
 }
+
+/* div {
+  display: inline-block;
+  width: 50%;
+  height: 100vh;
+} */
